@@ -9,7 +9,7 @@ class Fraction
     add(f)
     {
       let den = this.denominator * f.denominator;
-      let num = this.numerator * f.denominator + f.numerator * this.denominator;
+      let num = this.numerator * f.denominator - f.numerator * this.denominator;
       let g = gcd(num,den);
       console.log(g);
       return new Fraction(num/g,den/g);
