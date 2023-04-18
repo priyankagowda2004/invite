@@ -34,12 +34,6 @@ function input_fraction()
     let denominator = parseInt(prompt("enter the denominator of the fraction: "));
   return new Fraction(numerator,denominator);
 }
-// function main()
-// {
-//   let a1,a2,b1,b2;
-//   [a1,b1,a2,b2]=input();
-//   let fraction=add(a1,b1,a2,b2);
-//   console.log("the addition of two fraction is %d/%d",fraction.numerator,fraction.denominator);
 
 function output_result(f1,f2,result)
 {
