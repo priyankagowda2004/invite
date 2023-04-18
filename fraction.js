@@ -50,7 +50,7 @@ function main()
 {
   let f1 = input_fraction();
   let f2 = input_fraction();
-  let f3 = f1.add(f2)
+  let f3 = f1.sub(f2)
   output_result(f1,f2,f3);
 }
 
